@@ -4,7 +4,7 @@ import BlogCard from "./BlogCard";
 
 const Blog = (props) => {
   return (
-    <div className="container" style={{marginTop: "4rem"}}>
+    <div className="container" style={{marginTop: "4rem", marginBottom: "1rem"}}>
       <div className="row">
         <BlogCard blogData={BlogData} />
       </div>
